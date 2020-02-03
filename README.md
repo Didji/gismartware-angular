@@ -1,27 +1,70 @@
 # AngularLearning
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## App Folder structure 
+```
+.
+├── accounts
+│   ├── accounts.component.html
+│   ├── accounts.component.scss
+│   ├── accounts.component.spec.ts
+│   └── accounts.component.ts
+├── app-routing.module.ts
+├── app.component.html
+├── app.component.scss
+├── app.component.spec.ts
+├── app.component.ts
+├── app.module.ts
+├── billing
+│   ├── billing.component.html
+│   ├── billing.component.scss
+│   ├── billing.component.spec.ts
+│   └── billing.component.ts
+├── calendar
+│   ├── calendar.component.html
+│   ├── calendar.component.scss
+│   ├── calendar.component.spec.ts
+│   └── calendar.component.ts
+├── dashboard
+│   ├── dashboard.component.html
+│   ├── dashboard.component.scss
+│   ├── dashboard.component.spec.ts
+│   └── dashboard.component.ts
+└── shared
+    ├── header
+    │   ├── header.component.html
+    │   ├── header.component.scss
+    │   ├── header.component.spec.ts
+    │   └── header.component.ts
+    ├── menu
+    │   ├── menu.component.html
+    │   ├── menu.component.scss
+    │   ├── menu.component.spec.ts
+    │   └── menu.component.ts
+    ├── section
+    │   ├── section.component.html
+    │   ├── section.component.scss
+    │   ├── section.component.spec.ts
+    │   └── section.component.ts
+    └── shared.module.ts
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+** we are using shared module for the components that we share between other main components
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Development needs
 
-## Running unit tests
+### Theme
+- assets/theme/theme_init.png
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Fonts
+- https://fonts.google.com/selection?selection.family=Open+Sans
 
-## Running end-to-end tests
+### Tables
+- https://material.angular.io/components/table/api
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Icons Fontawesome
+- https://github.com/FortAwesome/angular-fontawesome
